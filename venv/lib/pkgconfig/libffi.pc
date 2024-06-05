@@ -1,0 +1,11 @@
+prefix=/Users/mounikapadala/Desktop/Projects/GenAI/End To End Text To SQL LLM App Along With Querying SQL Database Using Google Gemini Pro/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/mounikapadala/Desktop/Projects/GenAI/End To End Text To SQL LLM App Along With Querying SQL Database Using Google Gemini Pro/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

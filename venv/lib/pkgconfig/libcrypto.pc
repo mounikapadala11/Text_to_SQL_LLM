@@ -1,0 +1,12 @@
+prefix=/Users/mounikapadala/Desktop/Projects/GenAI/End To End Text To SQL LLM App Along With Querying SQL Database Using Google Gemini Pro/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+enginesdir=${libdir}/engines-1.1
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 1.1.1w
+Libs: -L${libdir} -lcrypto
+Libs.private:  
+Cflags: -I${includedir}

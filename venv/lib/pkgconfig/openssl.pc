@@ -1,0 +1,9 @@
+prefix=/Users/mounikapadala/Desktop/Projects/GenAI/End To End Text To SQL LLM App Along With Querying SQL Database Using Google Gemini Pro/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.1.1w
+Requires: libssl libcrypto

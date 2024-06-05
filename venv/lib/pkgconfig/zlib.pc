@@ -1,0 +1,13 @@
+prefix=/Users/mounikapadala/Desktop/Projects/GenAI/End To End Text To SQL LLM App Along With Querying SQL Database Using Google Gemini Pro/venv
+exec_prefix=/Users/mounikapadala/Desktop/Projects/GenAI/End To End Text To SQL LLM App Along With Querying SQL Database Using Google Gemini Pro/venv
+libdir=/Users/mounikapadala/Desktop/Projects/GenAI/End To End Text To SQL LLM App Along With Querying SQL Database Using Google Gemini Pro/venv/lib
+sharedlibdir=/Users/mounikapadala/Desktop/Projects/GenAI/End To End Text To SQL LLM App Along With Querying SQL Database Using Google Gemini Pro/venv/lib
+includedir=/Users/mounikapadala/Desktop/Projects/GenAI/End To End Text To SQL LLM App Along With Querying SQL Database Using Google Gemini Pro/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

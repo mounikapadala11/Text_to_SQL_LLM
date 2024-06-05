@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/Users/mounikapadala/Desktop/Projects/GenAI/End To End Text To SQL LLM App Along With Querying SQL Database Using Google Gemini Pro/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.45.3
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz 
+Cflags: -I${includedir}
